@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Top Steel</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <div class="logo">
+            <a href="index.html">
+                <h1>TOP STEEL</h1>
+            </a>
+        </div>
+
+        <button class="menu-boton" id="menuBoton" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
+
+
+    <main class="pagina-contacto">
+
+        <section class="contacto-portada">
+
+            <div class="contacto-info">
+
+                <span class="etiqueta">
+                    HABLEMOS
+                </span>
+
+                <h2>
+                    ¿Tienes un<br>
+                    proyecto en mente?
+                </h2>
+
+                <p>
+                    Cuéntanos qué necesitas. TOP STEEL desarrolla
+                    soluciones metálicas personalizadas para viviendas,
+                    negocios y diferentes tipos de proyectos.
+                </p>
+
+
+                <div class="contacto-redes">
+
+                    <a href="https://wa.me/51999999999" target="_blank" class="contacto-red">
+
+                        <div class="icono-red whatsapp-icono">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+
+                        <div>
+                            <h3>WhatsApp</h3>
+                            <p>Conversemos sobre tu proyecto →</p>
+                        </div>
+
+                    </a>
+
+
+                    <a href="https://www.instagram.com/" target="_blank" class="contacto-red">
+
+                        <div class="icono-red instagram-icono">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                        <div>
+                            <h3>Instagram</h3>
+                            <p>Mira nuestros trabajos →</p>
+                        </div>
+
+                    </a>
+
+
+                    <a href="https://www.facebook.com/" target="_blank" class="contacto-red">
+
+                        <div class="icono-red facebook-icono">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+
+                        <div>
+                            <h3>Facebook</h3>
+                            <p>Síguenos y conoce más →</p>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="cotizacion-box">
+
+                <span class="etiqueta">
+                    COTIZACIÓN
+                </span>
+
+                <h3>
+                    Cuéntanos qué necesitas
+                </h3>
+
+
+                <form id="formularioCotizacion">
+
+                    <div class="campo">
+
+                        <label for="nombre">
+                            Nombre
+                        </label>
+
+                        <input type="text" id="nombre" placeholder="Tu nombre" required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="telefono">
+                            Teléfono
+                        </label>
+
+                        <input type="tel" id="telefono" placeholder="Tu número" required>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="servicio">
+                            Servicio
+                        </label>
+
+                        <select id="servicio">
+
+                            <option>Techo metálico</option>
+                            <option>Panel corredizo</option>
+                            <option>Baranda</option>
+                            <option>Estructura metálica</option>
+                            <option>Puerta metálica</option>
+                            <option>Trabajo a medida</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensaje">
+                            Describe tu proyecto
+                        </label>
+
+                        <textarea id="mensaje" rows="5"
+                            placeholder="Ejemplo: Necesito un techo metálico para mi cochera..." required></textarea>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Enviar por WhatsApp →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+    <a href="https://wa.me/51999999999" target="_blank" class="whatsapp-flotante">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>Cotiza tu proyecto</span>
+
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+<div class="transicion-pagina"></div>
+
+</html>

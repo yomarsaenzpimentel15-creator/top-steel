@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diseño y Planificación | Top Steel</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="transicion-pagina"></div>
+
+
+<header class="encabezado">
+
+    <div class="logo">
+        <a href="index.html">
+            <h1>TOP STEEL</h1>
+        </a>
+    </div>
+
+    <button class="menu-boton" id="menuBoton" aria-label="Abrir menú">
+        ☰
+    </button>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html" class="activo">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+</header>
+
+
+<main class="detalle-proyecto">
+
+
+    <!-- PORTADA -->
+
+    <section class="detalle-hero detalle-hero-diseno">
+
+        <div class="detalle-hero-fondo"></div>
+
+        <div class="detalle-hero-contenido">
+
+            <a href="nosotros.html" class="volver-proyectos">
+                <i class="fa-solid fa-arrow-left"></i>
+                nosotros
+            </a>
+
+            <span class="detalle-etiqueta">
+                ETAPA 01
+            </span>
+
+            <h1>
+                Diseño y<br>
+                planificación
+            </h1>
+
+            <p>
+                Todo proyecto comienza con una buena planificación.
+                Analizamos medidas, necesidades, distribución y
+                características técnicas antes de iniciar la fabricación.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROCESO -->
+
+    <section class="detalle-galeria">
+
+        <div class="detalle-titulo">
+
+            <span>PLANIFICACIÓN</span>
+
+            <h2>
+                Del concepto a la solución
+            </h2>
+
+            <p>
+                En esta etapa definimos las características principales
+                del proyecto antes de llevarlo al taller.
+            </p>
+
+        </div>
+
+
+        <div class="grid-galeria">
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg"
+                    alt="Planificación de proyecto">
+            </div>
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg"
+                    alt="Diseño técnico">
+            </div>
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/6612388/pexels-photo-6612388.jpeg"
+                    alt="Revisión de planos">
+            </div>
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg"
+                    alt="Medición y planificación">
+            </div>
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/3862372/pexels-photo-3862372.jpeg"
+                    alt="Diseño de estructura">
+            </div>
+
+            <div class="foto-proyecto">
+                <img
+                    src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+                    alt="Coordinación de proyecto">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PASOS -->
+
+    <section class="detalle-videos">
+
+        <div class="detalle-titulo">
+
+            <span>CÓMO TRABAJAMOS</span>
+
+            <h2>
+                Proceso de diseño
+            </h2>
+
+        </div>
+
+
+        <div class="grid-videos">
+
+            <div class="video-proyecto">
+
+                <div class="video-placeholder">
+
+                    <i class="fa-solid fa-ruler-combined"></i>
+
+                    <span>
+                        Medición y levantamiento
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="video-proyecto">
+
+                <div class="video-placeholder">
+
+                    <i class="fa-solid fa-drafting-compass"></i>
+
+                    <span>
+                        Diseño y planificación técnica
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="detalle-cta">
+
+        <span>
+            TODO GRAN PROYECTO EMPIEZA CON UNA BUENA IDEA
+        </span>
+
+        <h2>
+            Diseñemos tu proyecto.
+        </h2>
+
+        <a href="contacto.html">
+
+            Solicitar asesoría
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </section>
+
+
+</main>
+
+
+<a href="https://wa.me/51999999999"
+   target="_blank"
+   class="whatsapp-flotante">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+    <span>Cotiza tu proyecto</span>
+
+</a>
+
+
+<div class="visor-proyecto" id="visorProyecto">
+
+    <button class="cerrar-visor" id="cerrarVisor">
+        ✕
+    </button>
+
+    <img
+        id="imagenVisor"
+        src=""
+        alt="Imagen ampliada">
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
